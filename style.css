@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    background-color: black;
+    color: white;
+    
+}
+
+/* nav part style  */
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.nav-list {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+   
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 5px 12px; 
+    
+}
+.nav-list>ul>li>a {
+
+    text-decoration: none;
+}
+.home{
+    background: rgb(230, 83, 60);;
+    border-radius: 12px;
+    padding: 4px 14px ;
+}
