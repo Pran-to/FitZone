@@ -73,6 +73,14 @@ nav {
     margin-left: 6rem;
     width: 40%;
 }
+.banner-left span {
+    font-family: 'Miama', sans-serif;
+    color: rgb(230, 83, 60);
+    font-size:  5.3rem;
+    font-weight: 200;
+    line-height:0.5rem;
+                                                
+}
 
 .banner-left>h1 {
     font-size: 3rem;
@@ -225,10 +233,9 @@ nav {
 /* Meet Our Team section styles  */
 
 .team-con {
-    display: none;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    text-align: center; */
+    text-align: center;
 }
 
 .team {
@@ -392,7 +399,7 @@ hr {
         flex-direction: column;
     }
 
-    /* Run an Extra Mile Easily section styles */
+    /* Run an Extra Mile Easily section responsive */
     .run{
         flex-direction: column;
     }
@@ -405,5 +412,24 @@ hr {
     .run > img {
         width: 100%;
     }
+ 
+       
+/* Meet Our Team section */
+.team{
+    padding: 3%;
+}
+    .team-img{
+        grid-template-columns: repeat(1 , 1fr);
+        
+    }
+    .trainer1,
+.trainer2,
+.trainer3,
+.trainer4,
+.trainer5,
+.trainer6{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 }
