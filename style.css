@@ -9,7 +9,7 @@
 body {
     background-color: black;
     color: white;
-    
+
 }
 
 /* nav part style  */
@@ -36,6 +36,7 @@ nav {
 
 .nav-img>img {
     width: 2rem;
+    border-radius: 3rem;
 
 }
 
@@ -224,9 +225,10 @@ nav {
 /* Meet Our Team section styles  */
 
 .team-con {
-    display: flex;
+    display: none;
+    /* display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
 }
 
 .team {
@@ -299,29 +301,34 @@ nav {
 
 /* Footer Section styles  */
 
-footer{
+footer {
+    display: none;
     background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-con{
+.footer-con {
     display: flex;
     justify-content: center;
-   gap: 7rem;
-   padding-top: 3rem;
+    gap: 7rem;
+    padding-top: 3rem;
 }
 
-.footer-con h1 ,.footer-con p {
-    margin: 2rem  0;
+.footer-con h1,
+.footer-con p {
+    margin: 2rem 0;
 }
+
 hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 0 12rem;
-    
+
 }
+
 .copy {
     text-align: center;
     padding: 2rem 0;
 }
+
 /*........... responsive for mobile ...........*/
 
 @media screen and (max-width: 576px) {
@@ -383,6 +390,20 @@ hr {
     /* Change Your Habits section responsive */
     .habits-content {
         flex-direction: column;
+    }
+
+    /* Run an Extra Mile Easily section styles */
+    .run{
+        flex-direction: column;
+    }
+    .run h1 {
+        font-size: 2rem;
+    }
+    .run  button {
+        width: 100%;
+    }
+    .run > img {
+        width: 100%;
     }
 
 }
