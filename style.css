@@ -233,6 +233,103 @@ nav {
     width: 40%;
 }
 
+/* BMI Calculator section style  */
+
+.bmi>h1,
+.bmi>p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cal {
+    margin: 3rem 0;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background: rgb(34, 34, 34);
+}
+
+table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+
+tbody td {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.cal td,
+th {
+    border: 1px solid white;
+    padding: 0.7rem;
+    text-align: center;
+
+}
+
+.Calculator>p {
+    margin: 2rem 0;
+}
+
+.Calculator input {
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0.3rem 0.3rem 0.3rem 0;
+    border-radius: 0.5rem;
+    width: 40%;
+    padding: 0.5rem;
+}
+
+select {
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+option {
+    color: tomato;
+}
+
+#sex {
+    width: 45%;
+}
+
+#activity {
+    margin: 1rem 0;
+    width: 90%;
+}
+
+/* Our gym store section style */
+.store > h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.store > p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.card img {
+    width: 13rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+.cards{
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
 /* Meet Our Team section styles  */
 
 .team-con {
@@ -309,75 +406,7 @@ nav {
 }
 
 
-/* BMI Calculator section style  */
 
-.bmi>h1,
-.bmi>p {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.cal {
-    margin: 3rem 0;
-    padding: 3rem 0;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
-    background: rgb(34, 34, 34);
-}
-
-table {
-    margin-top: 2rem;
-    border-collapse: collapse;
-}
-
-tbody td {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.cal td,
-th {
-    border: 1px solid white;
-    padding: 0.7rem;
-    text-align: center;
-
-}
-
-.Calculator>p {
-    margin: 2rem 0;
-}
-
-.Calculator input {
-    border: none;
-    outline: none;
-    color: aliceblue;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 0.3rem 0.3rem 0.3rem 0;
-    border-radius: 0.5rem;
-    width: 40%;
-    padding: 0.5rem;
-}
-
-select {
-    border: none;
-    color: rgba(255, 255, 255, 0.5);
-    background: rgba(255, 255, 255, 0.1);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-}
-
-option {
-    color: tomato;
-}
-
-#sex {
-    width: 45%;
-}
-
-#activity {
-    margin: 1rem 0;
-    width: 90%;
-}
 
 /* Footer Section styles  */
 
