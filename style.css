@@ -53,11 +53,11 @@ nav {
     text-decoration: none;
 }
 
-.home {
+.hov:hover {
     background: rgb(230, 83, 60);
-    ;
     border-radius: 12px;
-    padding: 4px 14px;
+    padding: 9% 25%;
+    transition-delay: 0.1s;
 }
 
 /* banner part style */
