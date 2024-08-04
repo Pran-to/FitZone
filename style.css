@@ -46,7 +46,7 @@ nav {
     display: flex;
     gap: 2rem;
     list-style: none;
-    padding: 5px 12px;
+    padding: 5px 20px 5px 10px;
 
 }
 
@@ -328,6 +328,31 @@ option {
     border-radius: 1rem;
     background: rgba(255, 255, 255, 0.1);
 }
+.cards h1 ,.cards p{
+    margin: 1rem 0;
+}
+.cards button{
+    background-color:beige;
+    padding: 0.3rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius:0 1rem;
+}
+.store-b {
+    margin: 2rem 0;
+    display: flex;
+   justify-content: center;
+}
+.store-b button{
+    background-color:beige;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    border:5px dashed;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 
 
 /* Meet Our Team section styles  */
