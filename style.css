@@ -295,7 +295,7 @@ option {
 }
 
 #sex {
-    width: 45%;
+    width: 44%;
 }
 
 #activity {
@@ -337,6 +337,7 @@ option {
     margin: 0.5rem 0;
     border: none;
     border-radius:0 1rem;
+    cursor: pointer;
 }
 .store-b {
     margin: 2rem 0;
@@ -578,6 +579,19 @@ hr {
     #activity {
         width: 94%;
     }
+
+      /* Our Gym Store Section Responsive  */
+   .card{
+    flex-direction: column;
+    align-items: center;
+   }
+   .store > h1{
+    font-size: 2rem;
+   }
+   .store>p{
+    font-size: 0.8rem;
+    padding: 0 3rem;
+   }
 
 
     /* footer section responsive */
